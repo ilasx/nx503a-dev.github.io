@@ -11,14 +11,20 @@ See the [device repository](https://github.com/nx503a-dev/android_device_zte_nx5
 
 ## Downloads
 
-- [twrp-3.0.2-0-nx503a-20160516-123206.img](http://o6wea3e46.bkt.clouddn.com/twrp-3.0.2-0-nx503a-20160516-123206.img)
-- [cm-13.0-20160516-UNOFFICIAL-nx503a-123206.zip](http://o6wea3e46.bkt.clouddn.com/cm-13.0-20160516-UNOFFICIAL-nx503a-123206.zip)
+- [twrp-20160517-072410.img](http://o6wea3e46.bkt.clouddn.com/twrp-20160517-072410.img)
+- [cm-13.0-20160517-UNOFFICIAL-nx503a-072411.zip](http://o6wea3e46.bkt.clouddn.com/cm-13.0-20160517-UNOFFICIAL-nx503a-072411.zip)
 
 ## Last 5 commits
 
 ### device
 
 ```
+commit 0fc52275ec13cb04e8fa6f4ad030f2bcda9dcd45
+Author: XiNGRZ <chenxingyu92@gmail.com>
+Date:   Tue May 17 20:25:12 2016 +0800
+
+    nx503a: the proper way to map key codes
+
 commit 6d396a78c0f9721f27bef4ab71a45fdc8351a152
 Author: XiNGRZ <chenxingyu92@gmail.com>
 Date:   Mon May 16 15:22:18 2016 +0800
@@ -42,12 +48,6 @@ Author: XiNGRZ <chenxingyu92@gmail.com>
 Date:   Sat May 14 01:20:52 2016 +0800
 
     nx503a: fix recovery partition size
-
-commit 95ba977271ebbd40c0d7aeae89e0acb4da0e3fc7
-Author: XiNGRZ <chenxingyu92@gmail.com>
-Date:   Fri May 13 22:50:18 2016 +0800
-
-    nx503a: removed unnecessary /storage/sdcard0 in twrp.fstab
 ```
 
 ### kernel
