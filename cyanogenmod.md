@@ -11,14 +11,26 @@ See the [device repository](https://github.com/nx503a-dev/android_device_zte_nx5
 
 ## Downloads
 
-- [twrp-20160517-223532.img](http://o6wea3e46.bkt.clouddn.com/twrp-20160517-223532.img)
-- [cm-13.0-20160518-UNOFFICIAL-nx503a-223532.zip](http://o6wea3e46.bkt.clouddn.com/cm-13.0-20160518-UNOFFICIAL-nx503a-223532.zip)
+- [twrp-20160517-234104.img](http://o6wea3e46.bkt.clouddn.com/twrp-20160517-234104.img)
+- [cm-13.0-20160518-UNOFFICIAL-nx503a-234105.zip](http://o6wea3e46.bkt.clouddn.com/cm-13.0-20160518-UNOFFICIAL-nx503a-234105.zip)
 
 ## Last 5 commits
 
 ### device
 
 ```
+commit d6321c0ed6865df9d33623fc85471a23faa70b80
+Author: XiNGRZ <chenxingyu92@gmail.com>
+Date:   Wed May 18 13:38:19 2016 +0800
+
+    nx503a: fix hardware keys config
+
+commit 796c0ba522e01e0ba83544f71c28e54807c96137
+Author: XiNGRZ <chenxingyu92@gmail.com>
+Date:   Wed May 18 13:32:43 2016 +0800
+
+    enable proximityCheckOnWake by default
+
 commit 51c45fb58b77c702664607d19b0f4b9470192c0c
 Author: XiNGRZ <chenxingyu92@gmail.com>
 Date:   Wed May 18 12:27:57 2016 +0800
@@ -37,18 +49,6 @@ Author: XiNGRZ <chenxingyu92@gmail.com>
 Date:   Wed May 18 10:44:02 2016 +0800
 
     nx503a: fix key layout for 16GB variant (which uses cyttsp4 touchscreen)
-
-commit 0fc52275ec13cb04e8fa6f4ad030f2bcda9dcd45
-Author: XiNGRZ <chenxingyu92@gmail.com>
-Date:   Tue May 17 20:25:12 2016 +0800
-
-    nx503a: the proper way to map key codes
-
-commit 6d396a78c0f9721f27bef4ab71a45fdc8351a152
-Author: XiNGRZ <chenxingyu92@gmail.com>
-Date:   Mon May 16 15:22:18 2016 +0800
-
-    Write README
 ```
 
 ### kernel
