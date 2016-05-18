@@ -11,13 +11,25 @@ See the [device repository](https://github.com/nx503a-dev/android_device_zte_nx5
 
 ## Downloads
 
-- [MK60.1-nx503a-201605172050-UNOFFICIAL.zip](http://o6wea3e46.bkt.clouddn.com/MK60.1-nx503a-201605172050-UNOFFICIAL.zip)
+- [MK60.1-nx503a-201605180141-UNOFFICIAL.zip](http://o6wea3e46.bkt.clouddn.com/MK60.1-nx503a-201605180141-UNOFFICIAL.zip)
 
 ## Last 5 commits
 
 ### device
 
 ```
+commit 8b1730667c7b24dd3d60693d4a27598b98955f8c
+Author: XiNGRZ <chenxingyu92@gmail.com>
+Date:   Wed May 18 13:38:19 2016 +0800
+
+    nx503a: fix hardware keys config
+
+commit bf24d69b04df143d64ca7c635ef739076cc257cc
+Author: XiNGRZ <chenxingyu92@gmail.com>
+Date:   Wed May 18 13:32:43 2016 +0800
+
+    enable proximityCheckOnWake by default
+
 commit e3ea99ee446956ae700939e9cad0d7968d3a9f69
 Author: XiNGRZ <chenxingyu92@gmail.com>
 Date:   Wed May 18 11:45:48 2016 +0800
@@ -36,18 +48,6 @@ Author: XiNGRZ <chenxingyu92@gmail.com>
 Date:   Wed May 18 10:44:02 2016 +0800
 
     nx503a: fix key layout for 16GB variant (which uses cyttsp4 touchscreen)
-
-commit 7d18ebc9755bf90e9b8ceae08e7b098bd745a290
-Author: XiNGRZ <chenxingyu92@gmail.com>
-Date:   Tue May 17 23:34:35 2016 +0800
-
-    port to MoKee mkm
-
-commit 199265edca4609003a8d696806697259cd46a430
-Author: XiNGRZ <chenxingyu92@gmail.com>
-Date:   Tue May 17 20:25:12 2016 +0800
-
-    nx503a: the proper way to map key codes
 ```
 
 ### kernel
