@@ -11,14 +11,33 @@ See the [device repository](https://github.com/nx503a-dev/android_device_zte_nx5
 
 ## Downloads
 
-- [twrp-20160517-072410.img](http://o6wea3e46.bkt.clouddn.com/twrp-20160517-072410.img)
-- [cm-13.0-20160517-UNOFFICIAL-nx503a-072411.zip](http://o6wea3e46.bkt.clouddn.com/cm-13.0-20160517-UNOFFICIAL-nx503a-072411.zip)
+- [twrp-20160517-223532.img](http://o6wea3e46.bkt.clouddn.com/twrp-20160517-223532.img)
+- [cm-13.0-20160518-UNOFFICIAL-nx503a-223532.zip](http://o6wea3e46.bkt.clouddn.com/cm-13.0-20160518-UNOFFICIAL-nx503a-223532.zip)
 
 ## Last 5 commits
 
 ### device
 
 ```
+commit 51c45fb58b77c702664607d19b0f4b9470192c0c
+Author: XiNGRZ <chenxingyu92@gmail.com>
+Date:   Wed May 18 12:27:57 2016 +0800
+
+    recovery: use fstab.qcom instead
+
+commit 49718056e095ad93f754cf68eccdc83186c597b3
+Merge: 0fc5227 08e5a73
+Author: XiNGRZ <chenxingyu92@gmail.com>
+Date:   Wed May 18 10:44:40 2016 +0800
+
+    Merge branch 'bugfix-keylayout-cyttsp4' into cm-13.0
+
+commit 08e5a73ddc19850dd4f93cb26e01252d72189202
+Author: XiNGRZ <chenxingyu92@gmail.com>
+Date:   Wed May 18 10:44:02 2016 +0800
+
+    nx503a: fix key layout for 16GB variant (which uses cyttsp4 touchscreen)
+
 commit 0fc52275ec13cb04e8fa6f4ad030f2bcda9dcd45
 Author: XiNGRZ <chenxingyu92@gmail.com>
 Date:   Tue May 17 20:25:12 2016 +0800
@@ -30,24 +49,6 @@ Author: XiNGRZ <chenxingyu92@gmail.com>
 Date:   Mon May 16 15:22:18 2016 +0800
 
     Write README
-
-commit 89a2cbd25de9c5959e5b5fe1e09d9d30dca0d96e
-Author: BambooIV <ningdisheng@gmail.com>
-Date:   Sun May 15 12:57:07 2016 +0800
-
-    rootdir: Remove service set_softkey
-
-commit 485d4be4eca7a94134f60197d0926ea78abca1e8
-Author: XiNGRZ <chenxingyu92@gmail.com>
-Date:   Sat May 14 01:52:30 2016 +0800
-
-    nx503a: removed soft key disabler -- it's not useful, since the hw keys couldn't be disabled or enabled without rebooting
-
-commit 4daf0e2d24eeaa6c7a2b8ddb6cddd01cc6a7f0a5
-Author: XiNGRZ <chenxingyu92@gmail.com>
-Date:   Sat May 14 01:20:52 2016 +0800
-
-    nx503a: fix recovery partition size
 ```
 
 ### kernel
