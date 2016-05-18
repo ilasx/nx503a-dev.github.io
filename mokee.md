@@ -11,13 +11,19 @@ See the [device repository](https://github.com/nx503a-dev/android_device_zte_nx5
 
 ## Downloads
 
-- [MK60.1-nx503a-201605172000-UNOFFICIAL.zip](http://o6wea3e46.bkt.clouddn.com/MK60.1-nx503a-201605172000-UNOFFICIAL.zip)
+- [MK60.1-nx503a-201605172050-UNOFFICIAL.zip](http://o6wea3e46.bkt.clouddn.com/MK60.1-nx503a-201605172050-UNOFFICIAL.zip)
 
 ## Last 5 commits
 
 ### device
 
 ```
+commit e3ea99ee446956ae700939e9cad0d7968d3a9f69
+Author: XiNGRZ <chenxingyu92@gmail.com>
+Date:   Wed May 18 11:45:48 2016 +0800
+
+    nx503a: fix missing proximityCheckOnWake for mkm
+
 commit 41e30bf106ea69b40179032b3fc6fc376ed909e0
 Merge: 7d18ebc 08e5a73
 Author: XiNGRZ <chenxingyu92@gmail.com>
@@ -38,12 +44,6 @@ Date:   Tue May 17 23:34:35 2016 +0800
     port to MoKee mkm
 
 commit 199265edca4609003a8d696806697259cd46a430
-Author: XiNGRZ <chenxingyu92@gmail.com>
-Date:   Tue May 17 20:25:12 2016 +0800
-
-    nx503a: the proper way to map key codes
-
-commit 0fc52275ec13cb04e8fa6f4ad030f2bcda9dcd45
 Author: XiNGRZ <chenxingyu92@gmail.com>
 Date:   Tue May 17 20:25:12 2016 +0800
 
