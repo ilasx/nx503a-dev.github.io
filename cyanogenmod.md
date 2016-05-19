@@ -11,14 +11,22 @@ See the [device repository](https://github.com/nx503a-dev/android_device_zte_nx5
 
 ## Downloads
 
-- [twrp-20160517-234104.img](http://o6wea3e46.bkt.clouddn.com/twrp-20160517-234104.img)
-- [cm-13.0-20160518-UNOFFICIAL-nx503a-234105.zip](http://o6wea3e46.bkt.clouddn.com/cm-13.0-20160518-UNOFFICIAL-nx503a-234105.zip)
+- [twrp-20160518-211328.img](http://o6wea3e46.bkt.clouddn.com/twrp-20160518-211328.img)
+- [cm-13.0-20160519-UNOFFICIAL-nx503a-211329.zip](http://o6wea3e46.bkt.clouddn.com/cm-13.0-20160519-UNOFFICIAL-nx503a-211329.zip)
 
 ## Last 5 commits
 
 ### device
 
 ```
+commit d11c4e2ebca1ad3379ac1ee99ed887555c8e9c9a
+Author: Altaf-Mahdi <altaf.mahdi@gmail.com>
+Date:   Mon Jan 25 00:14:34 2016 +0000
+
+    nx503a: dirty temp hack to fix torch not being registered on boot
+    
+    Change-Id: I8c231014a3655304d790bac69085669a9031e0bf
+
 commit d6321c0ed6865df9d33623fc85471a23faa70b80
 Author: XiNGRZ <chenxingyu92@gmail.com>
 Date:   Wed May 18 13:38:19 2016 +0800
@@ -43,12 +51,6 @@ Author: XiNGRZ <chenxingyu92@gmail.com>
 Date:   Wed May 18 10:44:40 2016 +0800
 
     Merge branch 'bugfix-keylayout-cyttsp4' into cm-13.0
-
-commit 08e5a73ddc19850dd4f93cb26e01252d72189202
-Author: XiNGRZ <chenxingyu92@gmail.com>
-Date:   Wed May 18 10:44:02 2016 +0800
-
-    nx503a: fix key layout for 16GB variant (which uses cyttsp4 touchscreen)
 ```
 
 ### kernel
