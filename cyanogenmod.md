@@ -11,14 +11,20 @@ See the [device repository](https://github.com/nx503a-dev/android_device_zte_nx5
 
 ## Downloads
 
-- [twrp-20160518-211328.img](http://o6wea3e46.bkt.clouddn.com/twrp-20160518-211328.img)
-- [cm-13.0-20160519-UNOFFICIAL-nx503a-211329.zip](http://o6wea3e46.bkt.clouddn.com/cm-13.0-20160519-UNOFFICIAL-nx503a-211329.zip)
+- [twrp-20160524-053604.img](http://o6wea3e46.bkt.clouddn.com/twrp-20160524-053604.img)
+- [cm-13.0-20160524-UNOFFICIAL-nx503a-053605.zip](http://o6wea3e46.bkt.clouddn.com/cm-13.0-20160524-UNOFFICIAL-nx503a-053605.zip)
 
 ## Last 5 commits
 
 ### device
 
 ```
+commit 7960a1d312b2c71ed4523cc47a3f9008343382e9
+Author: XiNGRZ <chenxingyu92@gmail.com>
+Date:   Thu May 19 17:38:16 2016 +0800
+
+    reassign home key long press behavior since we already have an app switch key
+
 commit d11c4e2ebca1ad3379ac1ee99ed887555c8e9c9a
 Author: Altaf-Mahdi <altaf.mahdi@gmail.com>
 Date:   Mon Jan 25 00:14:34 2016 +0000
@@ -44,13 +50,6 @@ Author: XiNGRZ <chenxingyu92@gmail.com>
 Date:   Wed May 18 12:27:57 2016 +0800
 
     recovery: use fstab.qcom instead
-
-commit 49718056e095ad93f754cf68eccdc83186c597b3
-Merge: 0fc5227 08e5a73
-Author: XiNGRZ <chenxingyu92@gmail.com>
-Date:   Wed May 18 10:44:40 2016 +0800
-
-    Merge branch 'bugfix-keylayout-cyttsp4' into cm-13.0
 ```
 
 ### kernel
