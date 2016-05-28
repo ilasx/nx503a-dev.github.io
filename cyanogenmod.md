@@ -11,8 +11,8 @@ See the [device repository](https://github.com/nx503a-dev/android_device_zte_nx5
 
 ## Downloads
 
-- [twrp-20160528-013443.img](http://o6wea3e46.bkt.clouddn.com/twrp-20160528-013443.img)
-- [cm-13.0-20160528-UNOFFICIAL-nx503a-013446.zip](http://o6wea3e46.bkt.clouddn.com/cm-13.0-20160528-UNOFFICIAL-nx503a-013446.zip)
+- [twrp-20160528-050920.img](http://o6wea3e46.bkt.clouddn.com/twrp-20160528-050920.img)
+- [cm-13.0-20160528-UNOFFICIAL-nx503a-050923.zip](http://o6wea3e46.bkt.clouddn.com/cm-13.0-20160528-UNOFFICIAL-nx503a-050923.zip)
 
 ## Last 5 commits
 
@@ -65,6 +65,13 @@ Date:   Tue Mar 8 11:15:34 2016 +0530
 ### kernel
 
 ```
+commit 4310572995e006c61de52061327efc08d8a4b346
+Author: XiNGRZ <chenxingyu92@gmail.com>
+Date:   Sat May 28 18:26:45 2016 +0800
+
+    nx503a: revert the leds-qpnp driver to ZTEMT's to make button back-lights work
+    https://github.com/ztemt/Z5S_NX503A_KitKat_kernel/blob/master/drivers/leds/leds-qpnp.c
+
 commit 0e02aac62fd669f5d4abb5f7db104e666eb504cc
 Author: XiNGRZ <chenxingyu92@gmail.com>
 Date:   Sat May 28 12:44:48 2016 +0800
@@ -92,12 +99,6 @@ Author: XiNGRZ <chenxingyu92@gmail.com>
 Date:   Fri May 27 11:43:29 2016 +0800
 
     nx503a: added keypad enabler for synaptics_dsx
-
-commit bcf5ec84f0e4b5494749e5fafc3c5ad57c736d44
-Author: XiNGRZ <chenxingyu92@gmail.com>
-Date:   Fri May 27 22:09:28 2016 +0800
-
-    nx503a: added keypad enabler for cyttsp4_btn
 ```
 
 ### vendor
