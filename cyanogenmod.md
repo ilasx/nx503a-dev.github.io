@@ -11,85 +11,120 @@ See the [device repository](https://github.com/nx503a-dev/android_device_zte_nx5
 
 ## Downloads
 
-- [twrp-20160527-083518.img](http://o6wea3e46.bkt.clouddn.com/twrp-20160527-083518.img)
-- [cm-13.0-20160527-UNOFFICIAL-nx503a-083519.zip](http://o6wea3e46.bkt.clouddn.com/cm-13.0-20160527-UNOFFICIAL-nx503a-083519.zip)
+- [twrp-20160527-233229.img](http://o6wea3e46.bkt.clouddn.com/twrp-20160527-233229.img)
+- [cm-13.0-20160528-UNOFFICIAL-nx503a-233230.zip](http://o6wea3e46.bkt.clouddn.com/cm-13.0-20160528-UNOFFICIAL-nx503a-233230.zip)
 
 ## Last 5 commits
 
 ### device
 
 ```
-commit 554957b8f1301915f5b23a1604c04f51baf8911b
+commit 390607c2757cb2ff6116dff98bb69066ba4bdc44
 Author: XiNGRZ <chenxingyu92@gmail.com>
-Date:   Fri May 27 22:40:00 2016 +0800
+Date:   Sat May 28 13:36:55 2016 +0800
 
-    bring back the original touch key layout
+    nx503a: removed TWRP -- will be in a seperated branch later
 
-commit 3ef9a6ea892585e21fcae970436cfd10426a1af3
+commit 9e95789ed29212be87140cba75b08357ac13448e
 Author: XiNGRZ <chenxingyu92@gmail.com>
-Date:   Fri May 27 22:34:43 2016 +0800
+Date:   Sat May 28 13:22:40 2016 +0800
 
-    bring back soft key disabler
+    use tp_node to link soft key disabler
 
-commit 7960a1d312b2c71ed4523cc47a3f9008343382e9
-Author: XiNGRZ <chenxingyu92@gmail.com>
-Date:   Thu May 19 17:38:16 2016 +0800
+commit f4a7301d98da7a1a77296e1ec0135acada24c2fb
+Author: Georg Veichtlbauer <georg.veichtlbauer@gmail.com>
+Date:   Tue Nov 10 15:19:30 2015 +0100
 
-    reassign home key long press behavior since we already have an app switch key
-
-commit d11c4e2ebca1ad3379ac1ee99ed887555c8e9c9a
-Author: Altaf-Mahdi <altaf.mahdi@gmail.com>
-Date:   Mon Jan 25 00:14:34 2016 +0000
-
-    nx503a: dirty temp hack to fix torch not being registered on boot
+    nx503a: Build stlport for blob compatibility
     
-    Change-Id: I8c231014a3655304d790bac69085669a9031e0bf
+    Change-Id: I5faf8f0b2fe1afa6372918c40196a0566820b34d
 
-commit d6321c0ed6865df9d33623fc85471a23faa70b80
-Author: XiNGRZ <chenxingyu92@gmail.com>
-Date:   Wed May 18 13:38:19 2016 +0800
+commit 059f13d2eb33d5b41c7c312c5629761a772eebeb
+Author: Jaime Lopez <jaimel@codeaurora.org>
+Date:   Fri Jan 18 15:21:47 2013 -0800
 
-    nx503a: fix hardware keys config
+    MSM8974: Add flag to indicate protobuf support.
+    
+    Add a flag to indicate that protobuf-c is supported
+    
+    Change-Id: I16c221ff3d8b48229a43ed0bdee4f0357966fbd5
+
+commit 784a55ff517a8796dc962c8a131d5dd511fe561b
+Author: Vince Leung <vincentl@codeaurora.org>
+Date:   Tue Mar 8 11:15:34 2016 +0530
+
+    init.qcom.rc: declare perfd service
+    
+    Move the declaration of perfd service to
+    init.qcom.rc. Create the socket for perfd
+    so we can remove the old socket path
+    
+    Change-Id: I56f42517ac38260c9a67b0085f5fba17057dde76
 ```
 
 ### kernel
 
 ```
-commit bcf5ec84f0e4b5494749e5fafc3c5ad57c736d44
+commit 0e02aac62fd669f5d4abb5f7db104e666eb504cc
+Author: XiNGRZ <chenxingyu92@gmail.com>
+Date:   Sat May 28 12:44:48 2016 +0800
+
+    Revert "nx503a: added keypad enabler for synaptics_dsx"
+    We already have a built-in "0dbutton" switch
+    
+    This reverts commit e693fe67052e37df9c4cbb1d95312da180a38e7c.
+
+commit 03667659e98b3a10dea25bcfe15774605186bd76
+Merge: bcf5ec8 62e42c6
+Author: BambooIV <ningdisheng@gmail.com>
+Date:   Sat May 28 12:39:13 2016 +0800
+
+    Merge 'BambooIV/cm-13.0' into cm-13.0
+
+commit 62e42c64226ae1f700c50b9465c442db744b276b
 Author: XiNGRZ <chenxingyu92@gmail.com>
 Date:   Fri May 27 22:09:28 2016 +0800
 
     nx503a: added keypad enabler for cyttsp4_btn
 
-commit e693fe67052e37df9c4cbb1d95312da180a38e7c
+commit 7f5667b8281ec7ae9223c5d5c2d39ee84d74ba03
 Author: XiNGRZ <chenxingyu92@gmail.com>
 Date:   Fri May 27 11:43:29 2016 +0800
 
     nx503a: added keypad enabler for synaptics_dsx
 
-commit 7e4876710ece16b0c73d3c799844ac574c21b3de
-Merge: 2a08a9a 5fddd93
+commit bcf5ec84f0e4b5494749e5fafc3c5ad57c736d44
 Author: XiNGRZ <chenxingyu92@gmail.com>
-Date:   Sat May 14 22:29:45 2016 +0800
+Date:   Fri May 27 22:09:28 2016 +0800
 
-    Merge upstream works from BambooIV
-
-commit 2a08a9aa9d49c86cf013324c87e9d8b454b2a9ae
-Author: XiNGRZ <chenxingyu92@gmail.com>
-Date:   Sat May 14 22:24:17 2016 +0800
-
-    nx503a: enable XZ compression of kernel
-
-commit 5fddd9388bb2215a2d519268677d0d16c947294d
-Author: BambooIV <ningdisheng@gmail.com>
-Date:   Thu Apr 28 23:59:39 2016 +0800
-
-    nx503a: defconfig: Enable f2fs
+    nx503a: added keypad enabler for cyttsp4_btn
 ```
 
 ### vendor
 
 ```
+commit 3f1fac49e516d2abf39fb90e740e944980fdc206
+Author: BambooIV <ningdisheng@gmail.com>
+Date:   Fri May 27 21:28:32 2016 +0800
+
+    nx503a: Update perf blobs
+    
+    * From bacon
+
+commit e7f3fbd9b349e3f6a4ffcfc1b93071addc3f8c0b
+Author: BambooIV <ningdisheng@gmail.com>
+Date:   Fri May 27 21:13:25 2016 +0800
+
+    nx503a: Remove zte_addr_config
+
+commit b72e7ff630a57373fd13019de71918f0a358700e
+Author: BambooIV <ningdisheng@gmail.com>
+Date:   Fri May 27 21:09:30 2016 +0800
+
+    nx503a: Update TimeService blobs
+    
+    * From bacon
+
 commit 2bca92665aa31cf0fc985b8f31c8a1541cc0c3b3
 Author: BambooIV <ningdisheng@gmail.com>
 Date:   Thu Apr 14 16:30:18 2016 +0800
@@ -109,25 +144,5 @@ Author: BambooIV <ningdisheng@gmail.com>
 Date:   Thu Apr 14 15:38:12 2016 +0800
 
     nx503a: Remove some binaries
-
-commit 635901c9c4c7667d7fcb825c93667a31a173c6fb
-Author: BambooIV <ningdisheng@gmail.com>
-Date:   Thu Apr 14 11:45:48 2016 +0800
-
-    nx503a: Update TimeService blobs
-    
-    * From bacon
-
-commit 0b9602ff68c8f5332c4159aa11c64afbfb9d562d
-Author: BambooIV <ningdisheng@gmail.com>
-Date:   Thu Apr 14 11:33:49 2016 +0800
-
-    nx503a: Build ril from opensource
-
-commit 6483d984ef2c89f7c5b8a679a2a916a12ad59c89
-Author: BambooIV <ningdisheng@gmail.com>
-Date:   Wed Apr 13 16:42:05 2016 +0800
-
-    nx503a: Remove some omx blobs
 ```
 
