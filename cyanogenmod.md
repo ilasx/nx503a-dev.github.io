@@ -11,8 +11,8 @@ See the [device repository](https://github.com/nx503a-dev/android_device_zte_nx5
 
 ## Downloads
 
-- [twrp-20160527-233229.img](http://o6wea3e46.bkt.clouddn.com/twrp-20160527-233229.img)
-- [cm-13.0-20160528-UNOFFICIAL-nx503a-233230.zip](http://o6wea3e46.bkt.clouddn.com/cm-13.0-20160528-UNOFFICIAL-nx503a-233230.zip)
+- [twrp-20160528-013443.img](http://o6wea3e46.bkt.clouddn.com/twrp-20160528-013443.img)
+- [cm-13.0-20160528-UNOFFICIAL-nx503a-013446.zip](http://o6wea3e46.bkt.clouddn.com/cm-13.0-20160528-UNOFFICIAL-nx503a-013446.zip)
 
 ## Last 5 commits
 
